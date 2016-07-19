@@ -1,0 +1,644 @@
+/******************************************/
+/****************GENERAL******************/
+/****************************************/
+#body{
+  background-color: rgba(145, 145, 145, 0.2);
+
+}
+
+/******************************************/
+/****************HEADER*******************/
+/****************************************/
+header{
+  color: white;
+}
+.header-container{
+  width: 100%;
+  height: 610px;
+  border-left: none;
+  border-right: none;
+  position: relative;
+}
+.video-container{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+video{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+header h1{
+  position: absolute;
+  top: 250px;
+  bottom: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 70px;
+  width: 100%;
+}
+
+header h5{
+  position: absolute;
+  top: 340px;
+  text-align: center;
+  width: 100%;
+}
+
+.bnb{
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+}
+
+ul{
+
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  list-style: none;
+  width: 500px;
+}
+
+li{
+  padding-top: 5px;
+  padding-left: 40px;
+}
+
+.host{
+  border: 2px white solid;
+  padding: 5px 15px 5px 15px;
+}
+
+.search-second{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 511px;
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.selection{
+  height: 38px;
+  width: 120px;
+}
+
+
+.barre{
+  width: 250px;
+  height: 38px;
+
+}
+
+.btn-danger{
+
+  height: 38px;
+  width: 120px;
+}
+
+
+/******************************************/
+/***************CARD REVENUS**************/
+/****************************************/
+
+.revenus img{
+  width: 635px;
+  height: 340px;
+}
+
+.revenus{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.card-revenu{
+  height: 344px;
+
+}
+section{
+  padding-top: 50px;
+  text-align: center;
+}
+
+/******************************************/
+/****************CITIES*******************/
+/****************************************/
+.cities{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 950px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cities-second{
+  display: flex;
+  flex-wrap: wrap;
+  width: 950px;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  padding-top: 50px;
+  text-align: center;
+
+}
+
+
+/******************************************/
+/****************CARDS*********************/
+/****************************************/
+h1{
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.card-custom{
+  margin-top: 360px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.card-custom1{
+  margin-top: 300px;
+  font-weight: bold;
+}
+.card-custom2{
+  margin-top: 250px;
+  font-weight: bold;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-inverse{
+  height: 494px;
+  width: 317px;
+}
+
+/******************************************/
+/****************FOOTER*******************/
+/****************************************/
+footer{
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-image: url(img/footer.jpg);
+}
+
+.container-footer{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+
+ol li{
+  color: white;
+  list-style: none;
+  text-align: left;
+  font-size: 13px;
+}
+
+
+.last{
+  position: absolute;
+  top: 50px;
+  margin-left: 380px;
+
+}
+
+.langue{
+  width: 230px;
+  height: 40px;
+  margin-top: 5px;
+  background-color: #484848;
+  color: white;
+  border: 1px #484848 solid;
+}
+
+hr{
+  background-color: white;
+  width: 50%;
+}
+
+.reseau{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-secondary{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo{
+  display: flex;
+
+  justify-content: center;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/*******************************************************/
+/*************MEDIA QUERIES LARGE SCREENS***************/
+/******************************************************/
+
+.md{
+  display: none;
+}
+.revenus-sm{
+  display: none;
+}
+.btn-secondary{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.city-name{
+  display: none;
+}
+
+.search{
+  display: none;
+}
+.menu{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1300px){
+  /******************************************/
+  /******************CARDS******************/
+  /****************************************/
+
+.wrapper{
+  display: none;
+}
+
+.title{
+  display: none;
+}
+}
+
+
+@media screen and (max-width: 1100px){
+  /******************************************/
+  /***************CARD REVENUS**************/
+  /****************************************/
+.revenus img{
+  width: 460px;
+  height: 260px;
+}
+
+.card-block{
+  height: 260px;
+}
+
+/******************************************/
+/****************CITIES*******************/
+/****************************************/
+.cities{
+  width: 615px;
+  height: 650px;
+  flex-wrap: wrap;
+}
+
+.lg{
+  display: none;
+}
+
+.md{
+  display: flex;
+}
+
+.cities-second{
+  height: 1950px;
+  width: 625px;
+}
+
+.item-1{
+  order: 0;
+}
+
+.item-2{
+  order: 1;
+}
+
+.item-3{
+  order: 2;
+}
+
+.item-4{
+  order: 3;
+}
+
+.item-5{
+  order: 4;
+}
+
+.item-6{
+  order: 5;
+}
+
+.item-7{
+  order: 6;
+}
+
+.item-8{
+  order: 7;
+}
+
+.item-9{
+  order: 8;
+}
+.item-10{
+  order: 5;
+}
+
+/******************************************/
+/**************** FOOTER *****************/
+/****************************************/
+ol{
+  display: none;
+}
+}
+
+@media screen and (min-width: 769px)and (max-width: 1081px){
+
+video{
+  margin-left: 0px;
+  height: 610px;
+  width: 1085px;
+}
+}
+
+
+@media screen and (max-width: 768px){
+
+/******************************************/
+/****************HEADER*******************/
+/****************************************/
+body{
+  margin: 0;
+}
+
+header{
+  height: 450px;
+}
+
+video{
+  margin-left: 0;
+  height: 450px;
+  width: 800px;
+  margin: 0;
+}
+
+header h1{
+  position: absolute;
+  top: 120px;
+  font-size: 40px;
+}
+
+header h5{
+  position: absolute;
+  top: 200px;
+}
+
+.menu{
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+}
+
+.mobile-menu{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  top: 380px;
+  justify-content: center;
+}
+
+.search-second{
+  display: none;
+}
+
+.search-third{
+  width: 80%;
+  height: 40px;
+  border: none;
+  color: black;
+}
+
+nav ul{
+  display: none;
+}
+
+.loupe{
+  background: url('img/loupes.jpg') left center no-repeat;
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+
+.bnb{
+  display: none;
+}
+
+p .air{
+  display: block;
+  padding-top: 10px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/******************************************/
+/****************CARD REVENUS**************/
+/****************************************/
+
+.revenus{
+  padding-top: 40px;
+}
+
+.revenus{
+  display: none;
+}
+
+.card-sm{
+  margin-top: 50px;
+  width: 100%;
+  background-image: url("img/rev.png");
+  background-size: cover;
+  height: 350px;
+}
+
+.card-ok{
+  margin-top: 100px;
+}
+/******************************************/
+/****************CITIES*******************/
+/****************************************/
+
+.md{
+  display: none;
+}
+
+.cities{
+  display: none;
+}
+
+.sm-london{
+  min-width: 100%;
+  background-image: url("img/londonsm.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.sm-sf{
+  min-width: 100%;
+  background-image: url("img/sfsm.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.sm-ny{
+  min-width: 100%;
+  background-image: url("img/nysm.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.sm-gand{
+  min-width: 100%;
+  background-image: url("img/gandsm.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+.sm-bxl{
+  min-width: 100%;
+  background-image: url("img/bxlsm.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.sm-anvers{
+  min-width: 100%;
+  background-image: url("img/anverssm.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.sm-am{
+  min-width: 100%;
+  background-image: url("img/amsterd.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.sm-rome{
+  min-width: 100%;
+  background-image: url("img/romesm.png");
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.cities-second{
+  display: none;
+}
+
+.city-name{
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding-top: 150px;
+
+}
+/******************************************/
+/****************CARDS*********************/
+/*****************************************/
+
+.wrapper{
+  display: none;
+}
+.title{
+  display: none;
+}
+
+.revenus-sm{
+  display: block;
+}
+
+/******************************************/
+/****************FOOTER********************/
+/*****************************************/
+footer{
+  margin-top: 20px;
+  height: 300px;
+}
+
+section .bouton{
+  display: none;
+}
+.container-footer{
+  width: 100%;
+}
+}
