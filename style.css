@@ -219,7 +219,7 @@ footer{
   position: relative;
   height: 500px;
   width: 100%;
-  background-image: url(footer.jpg);
+  background-image: url(img/footer.jpg);
 }
 
 .container-footer{
